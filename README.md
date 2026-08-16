@@ -2,9 +2,9 @@
 
 # Anmol Yadav
 
-### Passionate Backend Engineer · Software Dev · Systems Thinker · Clean Code Advocate
+### Passionate Backend Engineer · Software Dev · Systems Thinker · AI/LLM
 
-Building scalable, well-structured systems and writing clean, maintainable code.s.
+Building scalable, well-structured systems and writing clean, maintainable code.
 
 <br/>
 
@@ -16,13 +16,27 @@ Building scalable, well-structured systems and writing clean, maintainable code.
 
 ## About
 
-I'm a backend-focused developer who enjoys taking messy, complex problems and turning them into clean, well-structured systems. I care about **how** things are built as much as **what** gets built — scalability, maintainability, and clarity are non-negotiables for me.
+I'm a developer with a backend-first approach, building applications and systems with Node.js, TypeScript, and modern web technologies. I'm interested in scalable software, distributed systems, cloud infrastructure, and AI/LLM engineering.
+
+My core toolkit spans backend development, full-stack applications, databases, real-time systems, cloud, and AI, with a focus on building reliable, maintainable software and continuously strengthening my engineering fundamentals.
+
+I care about more than making software work. I care about why it works, how it scales, and how it can be maintained by the next developer.
+
+Backend Engineering
+       ↓
+API Design → Databases → Caching → Authentication
+       ↓
+Real-Time Systems → Distributed Systems → Scalability
+       ↓
+Docker → CI/CD → Cloud → Production
+       ↓
+AI / LLM Engineering
 
 - 🔭 Actively building and shipping projects that solve real problems
 - 🧠 Strengthening core CS fundamentals: DSA, system design, databases
 - 📝 Documenting my learning process through writing
-- 🎯 Sharpening my backend and system design skills every day
-- 🤝 Open to internships, junior roles, and collaborative open-source work
+- 🎯 Continuously strengthening my software engineering and system design skills
+- 🧪 Improving testing, observability, and code quality
 
 <br/>
 
@@ -35,7 +49,7 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**Full-Stack (MERN)**
+**Backend & Full-Stack**
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -89,9 +103,19 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 [![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
 
-**Open to:** Entry-Level Software Engineer / SDE1 roles · Backend Engineering · Internships · Open-source collaboration
-
 </div>
+
+## 🎯 What I'm Looking For
+
+I'm currently open to:
+
+* **Software Engineer Intern / SDE-1**
+* **Backend / Node.js Developer**
+* **Full-Stack Developer**
+* **AI / LLM Engineering Intern Opportunities**
+* **Open-source Collaboration**
+
+I'm particularly interested in teams where I can work on **real production systems, backend architecture, scalability, and developer-focused engineering problems.**
 
 <div align="center">
 
