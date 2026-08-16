@@ -2,9 +2,9 @@
 
 # Anmol Yadav
 
-### Software Engineer · Entry-Level / SDE1 · Backend-Focused
+### Passionate Backend Engineer · Software Dev · Systems Thinker · Clean Code Advocate
 
-Turning complex problems into clean, scalable systems.
+Building scalable, well-structured systems and writing clean, maintainable code.s.
 
 <br/>
 
@@ -16,12 +16,13 @@ Turning complex problems into clean, scalable systems.
 
 ## About
 
-Backend-focused engineer looking to land a first role as an **Entry-Level Software Engineer / SDE1**. I like taking messy problems apart and rebuilding them as clean, well-structured systems — code that's easy to read, easy to extend, and built to scale.
+I'm a backend-focused developer who enjoys taking messy, complex problems and turning them into clean, well-structured systems. I care about **how** things are built as much as **what** gets built — scalability, maintainability, and clarity are non-negotiables for me.
 
-- 🎯 Actively interviewing for Entry-Level SWE / SDE1 roles
-- 🛠️ Building full-stack and backend projects end to end
-- 🧠 Sharpening DSA, system design, and database fundamentals daily
-- 🤝 Open to internships, junior roles, and open-source collaboration
+- 🔭 Actively building and shipping projects that solve real problems
+- 🧠 Strengthening core CS fundamentals: DSA, system design, databases
+- 📝 Documenting my learning process through writing
+- 🎯 Sharpening my backend and system design skills every day
+- 🤝 Open to internships, junior roles, and collaborative open-source work
 
 <br/>
 
