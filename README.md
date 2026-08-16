@@ -2,41 +2,39 @@
 
 # Anmol Yadav
 
-### Passionate Backend Engineer · Software Dev · Systems Thinker · Clean Code Advocate
+### Software Engineer · Entry-Level / SDE1 · Backend-Focused
 
-Building scalable, well-structured systems and writing clean, maintainable code.
+Turning complex problems into clean, scalable systems.
 
-[![X (Twitter)](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+<br/>
 
+[![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
 
 </div>
 
----
+<br/>
 
-## 🎯 About Me
+## About
 
-I'm a backend-focused developer who enjoys taking messy, complex problems and turning them into clean, well-structured systems. I care about **how** things are built as much as **what** gets built — scalability, maintainability, and clarity are non-negotiables for me.
+Backend-focused engineer looking to land a first role as an **Entry-Level Software Engineer / SDE1**. I like taking messy problems apart and rebuilding them as clean, well-structured systems — code that's easy to read, easy to extend, and built to scale.
 
-- 🔭 Actively building and shipping projects that solve real problems
-- 🧠 Strengthening core CS fundamentals: DSA, system design, databases
-- 📝 Documenting my learning process through writing
-- 🎯 Sharpening my backend and system design skills every day
-- 🤝 Open to internships, junior roles, and collaborative open-source work
+- 🎯 Actively interviewing for Entry-Level SWE / SDE1 roles
+- 🛠️ Building full-stack and backend projects end to end
+- 🧠 Sharpening DSA, system design, and database fundamentals daily
+- 🤝 Open to internships, junior roles, and open-source collaboration
 
----
+<br/>
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 **Languages**
-
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**Frontend & Full-Stack (MERN)**
-
+**Full-Stack (MERN)**
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -44,21 +42,18 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 ![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
 **AI / LLM Engineering**
-
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 **Databases & Caching**
-
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 **Tools, DevOps & Cloud**
-
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -70,11 +65,9 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 **Currently Deepening**
 Clean Architecture · Design Patterns · System Design & Scalability · Distributed Systems
 
----
+<br/>
 
----
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -87,15 +80,15 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 </div>
 
----
+<br/>
 
-## 📬 Contact
+## Contact
 
 <div align="center">
 
-[![X (Twitter)](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+[![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
 
-**Open to:** Entry-Level Software Engineer / SDE1 roles · Backend Engineering · Internships · Collaborative projects
+**Open to:** Entry-Level Software Engineer / SDE1 roles · Backend Engineering · Internships · Open-source collaboration
 
 </div>
 
