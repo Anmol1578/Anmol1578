@@ -1,60 +1,47 @@
 <div align="center">
 
-# Hi, I'm Anmol Yadav 👋
+# Anmol Yadav
 
-### Backend Engineer · Systems Thinker · Clean Code Advocate
+### Passionate Backend Engineer · Software Dev · Systems Thinker · Clean Code Advocate
 
-*Building scalable, impactful solutions — one well-structured system at a time.*
+Building scalable, well-structured systems and writing clean, maintainable code.
 
-[![X (Twitter)](https://img.shields.io/badge/-@AnmolYadav95-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+[![X (Twitter)](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+
 
 </div>
 
 ---
 
-### 🎯 About Me
+## 🎯 About Me
 
 I'm a backend-focused developer who enjoys taking messy, complex problems and turning them into clean, well-structured systems. I care about **how** things are built as much as **what** gets built — scalability, maintainability, and clarity are non-negotiables for me.
 
-- 🔭 Currently building projects that solve real-world problems
-- 🧠 Sharpening my backend and system design skills every day
-- 📝 Writing about software engineering, discipline, and growth
-- 🤝 Always open to collaborating and learning from other developers
-- ⚡ **Fun fact:** discipline beats talent when talent doesn't show up
+- 🔭 Actively building and shipping projects that solve real problems
+- 🧠 Strengthening core CS fundamentals: DSA, system design, databases
+- 📝 Documenting my learning process through writing
+- 🎯 Sharpening my backend and system design skills every day
+- 🤝 Open to internships, junior roles, and collaborative open-source work
 
 ---
 
-### 🌱 Currently Learning
-
-<div align="left">
-
-| Focus Area | Topics |
-|---|---|
-| 🏗️ **Architecture** | Clean Architecture, Design Patterns |
-| 📈 **Systems** | System Design, Scalability, Distributed Systems |
-| 🧘 **Growth** | Discipline, Mindset, Consistency |
-
-</div>
-
----
-
-### 🛠️ Tech Toolbox
-
-<div align="left">
+## 🛠️ Technical Skills
 
 **Languages**
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**MERN Stack**
+**Frontend & Full-Stack (MERN)**
 
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
 **AI / LLM Engineering**
 
@@ -65,31 +52,29 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 
 **Databases & Caching**
 
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-**DevOps & Cloud**
-
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-**Tools & Workflow**
+**Tools, DevOps & Cloud**
 
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-> *Edit this list to match your actual stack — precision here matters more than breadth. Startups especially value a tight, honest list over a wall of badges you can't speak to in an interview.*
-
-</div>
+**Currently Deepening**
+Clean Architecture · Design Patterns · System Design & Scalability · Distributed Systems
 
 ---
 
-### 📊 GitHub Stats
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -98,50 +83,25 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anmol1578&theme=tokyonight&hide_border=true" />
 
-</div>
-
-
----
-
-### 🏆 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Anmol1578/Cyvion-Chat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnmolYadav95&repo=repo-name-1&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/Anmol1578/Movie-Watchlist-Api">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AnmolYadav95&repo=repo-name-2&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
----
-
-### 📈 Contribution Graph
-
-<div align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
 </div>
 
 ---
 
-### 📬 Let's Connect
+## 📬 Contact
 
 <div align="center">
 
-[![X (Twitter)](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+[![X (Twitter)](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](#)
 
-**Open to:** backend engineering roles · system design discussions · collaboration on real-world projects
+**Open to:** Entry-Level Software Engineer / SDE1 roles · Backend Engineering · Internships · Collaborative projects
 
 </div>
 
 <div align="center">
 
-*"Discipline beats talent when talent doesn't show up."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=AnmolYadav95&color=blueviolet&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=Anmol1578&color=blueviolet&style=flat-square)
 
 </div>
