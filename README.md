@@ -10,6 +10,8 @@ Building scalable, well-structured systems and writing clean, maintainable code.
 
 [![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
 
+[![Email](https://img.shields.io/badge/Email-Reach_Out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anmoly1578@gmail.com)
+
 </div>
 
 <br/>
@@ -85,7 +87,8 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
- 
+ </div>
+<br/>
 
 ## 🎯 What I'm Looking For
 
