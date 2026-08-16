@@ -8,9 +8,7 @@ Building scalable, well-structured systems and writing clean, maintainable code.
 
 <br/>
 
-[![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
-
-[![Email](https://img.shields.io/badge/Email-Reach_Out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anmoly1578@gmail.com)
+[![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95) [![Email](https://img.shields.io/badge/Email-Reach_Out-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anmoly1578@gmail.com)
 
 </div>
 
