@@ -22,15 +22,7 @@ My core toolkit spans backend development, full-stack applications, databases, r
 
 I care about more than making software work. I care about why it works, how it scales, and how it can be maintained by the next developer.
 
-**Backend Engineering
-       ↓
-API Design → Databases → Caching → Authentication
-       ↓
-Real-Time Systems → Distributed Systems → Scalability
-       ↓
-Docker → CI/CD → Cloud → Production
-       ↓
-AI / LLM Engineering**
+My engineering path runs from **API design and databases**, through **caching and authentication**, into **real-time and distributed systems**, out to **Docker, CI/CD, and cloud deployment** — and increasingly into **AI/LLM engineering**.
 
 - 🔭 Actively building and shipping projects that solve real problems
 - 🧠 Strengthening core CS fundamentals: DSA, system design, databases
