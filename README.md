@@ -85,17 +85,7 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
-</div>
-
-<br/>
-
-## Contact
-
-<div align="center">
-
-[![X](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
-
-</div>
+ 
 
 ## 🎯 What I'm Looking For
 
