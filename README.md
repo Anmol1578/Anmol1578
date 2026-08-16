@@ -122,7 +122,7 @@ I'm a backend-focused developer who enjoys taking messy, complex problems and tu
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AnmolYadav95&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
 </div>
 
