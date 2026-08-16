@@ -94,7 +94,6 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 <div align="center">
 
 [![X (Twitter)](https://img.shields.io/badge/X-@AnmolYadav95-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AnmolYadav95)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](#)
 
 **Open to:** Entry-Level Software Engineer / SDE1 roles · Backend Engineering · Internships · Collaborative projects
 
