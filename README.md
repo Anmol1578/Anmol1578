@@ -78,10 +78,7 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Anmol1578&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anmol1578&layout=compact&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Anmol1578&theme=tokyonight&hide_border=true" />
+  https://github-profile-trophy.vercel.app/?username=Anmol1578&theme=tokyonight&no-frame=true&row=1
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
