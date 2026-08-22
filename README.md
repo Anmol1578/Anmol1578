@@ -78,8 +78,6 @@ Clean Architecture · Design Patterns · System Design & Scalability · Distribu
 
 <div align="center">
 
-  https://github-profile-trophy.vercel.app/?username=Anmol1578&theme=tokyonight&no-frame=true&row=1
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
  </div>
