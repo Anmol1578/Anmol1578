@@ -2,7 +2,7 @@
 
 # Anmol Yadav
 
-### Passionate Backend Engineer · Software Dev · Systems Thinker · AI/LLM
+### Backend Engineer · Software Dev · Systems Thinker · AI/LLM
 
 Building scalable, well-structured systems and writing clean, maintainable code.
 
