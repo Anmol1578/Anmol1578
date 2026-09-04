@@ -55,7 +55,7 @@ I care less about *making it work* and more about *why it works, how it scales, 
 ### 🤖 Multi-Agent AI Platform
 Multi-agent system orchestrated with LangChain and LangGraph, deployed on AWS.
 
-`LangChain` `LangGraph` `AWS` `Python`
+`LangChain` `LangGraph` `AWS` `React` `Qdrant Vector DB`
 
 </td>
 <td width="50%" valign="top">
@@ -73,7 +73,7 @@ Real-time chat application built on the MERN stack with Socket.io for live bidir
 ### 🌍 AI Travel Planner
 AI-powered trip planning assistant built on the Gemini API.
 
-`Gemini API` `Node.js` `React`
+`Gemini API` `Node.js` `React` `MongoDB`
 
 </td>
 <td width="50%" valign="top">
@@ -81,7 +81,7 @@ AI-powered trip planning assistant built on the Gemini API.
 ### 🎬 Movie Watchlist API
 RESTful API for tracking and managing a personal movie watchlist.
 
-`Node.js` `Express` `MongoDB`
+`Node.js` `Express` `MongoDB` `ZOD` `Requestly` `JWT`
 
 </td>
 </tr>
