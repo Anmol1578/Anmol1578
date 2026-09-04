@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=620&lines=Backend+Engineer+%7C+Systems+Thinker;Building+with+Node.js+%2B+TypeScript;Shipping+AI%2FLLM+Powered+Systems;Currently%3A+Deepening+System+Design" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2200&pause=800&color=38BDF8&center=true&vCenter=true&width=650&lines=%3E+initializing+agent...+Anmol_Yadav;%3E+role%3A+backend_engineer+%2B+ai_llm;%3E+status%3A+building+%7C+learning+%7C+shipping;%3E+ready_for%3A+production_systems" alt="Typing SVG" />
 
 <br/>
 
@@ -25,10 +25,12 @@ I design and ship backend systems end-to-end — from schema and API design thro
 ## 🧭 Currently
 
 ```txt
-role        → Final year BCA student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
+role        → Final-year student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
 building    → real-time systems, multi-agent AI platforms, backend APIs
 learning    → clean architecture, design patterns, distributed systems, DSA
-certified   → AWS Cloud Practitioner , CS50x , Backend Developer (free code camp)
+pursuing    → core backend/AI work
+certified   → AWS Cloud Practitioner , CS50x , Backend Developer (freecode-camp)
+milestone   → qualified for the Decodex Hackathon
 ```
 
 <br/>
@@ -50,18 +52,18 @@ I care less about *making it work* and more about *why it works, how it scales, 
 <tr>
 <td width="50%" valign="top">
 
-### 🔗 Cyvion
-Real-time chat application built on the MERN stack with Socket.io for live bidirectional messaging.
-
-`MongoDB` `Express` `React` `Node.js` `Socket.io`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🤖 Multi-Agent AI Platform
 Multi-agent system orchestrated with LangChain and LangGraph, deployed on AWS.
 
 `LangChain` `LangGraph` `AWS` `Python`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 Cyvion
+Real-time chat application built on the MERN stack with Socket.io for live bidirectional messaging.
+
+`MongoDB` `Express` `React` `Node.js` `Socket.io`
 
 </td>
 </tr>
@@ -137,7 +139,7 @@ RESTful API for tracking and managing a personal movie watchlist.
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Anmol1578&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anmol1578&layout=compact&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Anmol1578&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=Anmol1578&theme=tokyonight&hide_border=true" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
 
