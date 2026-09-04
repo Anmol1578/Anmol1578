@@ -25,7 +25,7 @@ I design and ship backend systems end-to-end — from schema and API design thro
 ## 🧭 Currently
 
 ```txt
-role        → Final-year student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
+role        → final-year student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
 building    → real-time systems, multi-agent AI platforms, backend APIs
 learning    → clean architecture, design patterns, distributed systems, DSA
 pursuing    → core backend/AI work
