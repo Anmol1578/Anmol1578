@@ -52,7 +52,7 @@ I care less about *making it work* and more about *why it works, how it scales, 
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Multi-Agent AI Platform
+### 🤖 Vortex Multi-Agent AI Platform
 Multi-agent system orchestrated with LangChain and LangGraph, deployed on AWS.
 
 `LangChain` `LangGraph` `AWS` `React` `Qdrant Vector DB`
@@ -60,7 +60,7 @@ Multi-agent system orchestrated with LangChain and LangGraph, deployed on AWS.
 </td>
 <td width="50%" valign="top">
 
-### 🔗 Cyvion
+### 🔗 Cyvion-Chat
 Real-time chat application built on the MERN stack with Socket.io for live bidirectional messaging.
 
 `MongoDB` `Express` `React` `Node.js` `Socket.io`
@@ -78,7 +78,7 @@ AI-powered trip planning assistant built on the Gemini API.
 </td>
 <td width="50%" valign="top">
 
-### 🎬 Movie Watchlist API
+### 🎬 Movie Watchlist API [Pure Backend]
 RESTful API for tracking and managing a personal movie watchlist.
 
 `Node.js` `Express` `MongoDB` `ZOD` `Requestly` `JWT`
