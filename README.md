@@ -24,10 +24,9 @@ I design and ship backend systems end-to-end — schema and API design, caching,
 ## 🧭 Currently
 
 ```txt
-role        → final-year BCA student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
+role        → open to SDE-1 / Backend / Full-Stack / AI-LLM roles
 building    → real-time systems, multi-agent AI platforms, backend APIs
 learning    → clean architecture, design patterns, distributed systems, DSA
-certified   → AWS Cloud Practitioner · CS50x · Backend Developer (freeCodeCamp)
 milestone   → qualified, Decodex Hackathon · Top 30, OpenAI x NamasteDev Hackathon
 ```
 
