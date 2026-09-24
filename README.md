@@ -8,11 +8,10 @@
 
 **Backend Engineer · Full-Stack Developer · AI/LLM Engineering**
 
-I design and ship backend systems end-to-end — from schema and API design through caching, auth, real-time infrastructure, and cloud deployment — and I'm extending that into applied AI/LLM engineering.
+I design and ship backend systems end-to-end — schema and API design, caching, auth, real-time infrastructure, and cloud deployment — and I'm extending that into applied AI/LLM engineering with agentic systems.
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](#)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Anmol1578)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmol1578y@gmail.com)
 
@@ -25,12 +24,11 @@ I design and ship backend systems end-to-end — from schema and API design thro
 ## 🧭 Currently
 
 ```txt
-role        → final-year student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
+role        → final-year BCA student · open to SDE-1 / Backend / Full-Stack / AI-LLM roles
 building    → real-time systems, multi-agent AI platforms, backend APIs
 learning    → clean architecture, design patterns, distributed systems, DSA
-pursuing    → core backend/AI work
-certified   → AWS Cloud Practitioner , CS50x , Backend Developer (freecode-camp)
-milestone   → qualified for the Decodex Hackathon
+certified   → AWS Cloud Practitioner · CS50x · Backend Developer (freeCodeCamp)
+milestone   → qualified, Decodex Hackathon · Top 30, OpenAI x NamasteDev Hackathon
 ```
 
 <br/>
@@ -52,16 +50,16 @@ I care less about *making it work* and more about *why it works, how it scales, 
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Vortex Multi-Agent AI Platform
-Multi-agent system orchestrated with LangChain and LangGraph, deployed on AWS.
+### 🤖 Vortex — Multi-Agent AI Platform
+Multi-agent system orchestrated with LangChain and LangGraph, backed by a Qdrant vector store and deployed on AWS.
 
-`LangChain` `LangGraph` `AWS` `React` `Qdrant Vector DB`
+`LangChain` `LangGraph` `AWS` `React` `Qdrant`
 
 </td>
 <td width="50%" valign="top">
 
-### 🔗 Cyvion-Chat
-Real-time chat application built on the MERN stack with Socket.io for live bidirectional messaging.
+### 🔗 Cyvion — Real-Time Chat
+Real-time chat application on the MERN stack with Socket.io for live bidirectional messaging.
 
 `MongoDB` `Express` `React` `Node.js` `Socket.io`
 
@@ -78,10 +76,10 @@ AI-powered trip planning assistant built on the Gemini API.
 </td>
 <td width="50%" valign="top">
 
-### 🎬 Movie Watchlist API [Pure Backend]
-RESTful API for tracking and managing a personal movie watchlist.
+### 🎬 Movie Watchlist API — Pure Backend
+RESTful API for tracking and managing a personal movie watchlist, with schema validation and testing.
 
-`Node.js` `Express` `MongoDB` `ZOD` `Requestly` `JWT`
+`Node.js` `Express` `MongoDB` `Zod` `JWT`
 
 </td>
 </tr>
@@ -92,7 +90,7 @@ RESTful API for tracking and managing a personal movie watchlist.
 ## 🛠️ Tech Stack
 
 <table>
-<tr><td valign="top" width="140"><b>Languages</b></td><td>
+<tr><td valign="top" width="150"><b>Languages</b></td><td>
 <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
