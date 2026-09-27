@@ -10,9 +10,7 @@
 I build LLM systems that ship — multi-agent orchestration, efficient fine-tuning, and RAG pipelines designed around one question: how much complexity can you hide before the system stops being useful?*
 
 ---
-
-studying Final year, what doesn't fit in a lecture hall.
-
+Studying Final year, what doesn't fit in a lecture hall.
 ---
 
 ```
