@@ -1,164 +1,164 @@
-<div align="center">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%" />
+</p>
+<h1 align="center">Anmol Yadav</h1>
+<p align="center"><b>Backend Engineer · Multi-Agent Systems · Production NLP</b></p>
+<p align="center"><i>I build systems that know when they don't know enough, then loop until they do.</i></p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2200&pause=800&color=38BDF8&center=true&vCenter=true&width=650&lines=%3E+initializing+agent...+Anmol_Yadav;%3E+role%3A+backend_engineer+%2B+ai_llm;%3E+status%3A+building+%7C+learning+%7C+shipping;%3E+ready_for%3A+production_systems" alt="Typing SVG" />
+---
 
-<br/>
+I build LLM systems that ship — multi-agent orchestration, efficient fine-tuning, and RAG pipelines designed around one question: how much complexity can you hide before the system stops being useful?*
 
-# Anmol Yadav
+---
 
-**Backend Engineer · Full-Stack Developer · AI/LLM Engineering**
+studying Final year, what doesn't fit in a lecture hall.
 
-I design and ship backend systems end-to-end — schema and API design, caching, auth, real-time infrastructure, and cloud deployment — and I'm extending that into applied AI/LLM engineering with agentic systems.
-
-<br/>
-
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Anmol1578)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmol1578y@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=Anmol1578&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS" />
-
-</div>
-
-<br/>
-
-## 🧭 Currently
-
-```txt
-role        → open to SDE-1 / Backend / Full-Stack / AI-LLM roles
-building    → real-time systems, multi-agent AI platforms, backend APIs
-learning    → clean architecture, design patterns, distributed systems, DSA
-milestone   → qualified, Decodex Hackathon · Top 30, OpenAI x NamasteDev Hackathon
-```
-
-<br/>
-
-## ⚙️ Engineering Path
+---
 
 ```
-API Design & Databases → Caching & Auth → Real-Time & Distributed Systems
-        → Docker, CI/CD & Cloud → AI/LLM Engineering
+focus     : backend engineering · multi-agent systems · efficient LLMs · RAG pipelines 
+currently : open to SDE 1 & Backend internships & full-time opportunities
+location  : Earth, India
 ```
 
-I care less about *making it work* and more about *why it works, how it scales, and how the next developer maintains it.*
+---
 
-<br/>
+### What I Actually Build
 
-## 🚀 Featured Projects
+| Project | The Question I Was Answering | Result |
+|---|---|---|
+| [Vortex-Multi-Agent-Ai](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai) | Can one router hide 8 specialist agents behind a single prompt box, without the routing logic leaking into the UI? | LangGraph `StateGraph` router + credit gate dispatching to 8 agents (chat, search, coding, PDF, PDF-RAG, PPT, vision, image analysis); Node microservices (gateway, auth, chat, billing, agent), Qdrant RAG, Redis rate-limiting, Razorpay billing |
+| [Cyvion-Chat](https://github.com/Anmol1578/Cyvion-Chat) | How much real-time infrastructure can you bolt onto a chat app before the socket layer *is* the product? | Socket.IO real-time messaging, Clerk auth with webhook-synced user data, read receipts / typing / online presence, Dockerized SPA+API monolith with cron jobs |
+| [Travel-AI-Itinerary](https://github.com/Anmol1578/Travel-AI-Itinerary) | Can one LLM call replace a day of manual trip planning and still come back structured, not just a wall of text? | Full-stack MERN app, JWT + bcrypt auth, Gemini-generated day-by-day itineraries persisted per user, Axios-interceptor-driven env routing |
+| [Snap-Text](https://github.com/Anmol1578/Snap-Text) | Can you snip and OCR text off a locked-down video player without a server ever seeing a frame? | Manifest V3 Chrome extension, Tesseract.js OCR running in an offscreen Web Worker, zero network calls — full pipeline runs client-side |
+| [Movie-Watchlist-Api](https://github.com/Anmol1578/Movie-Watchlist-Api) | How much of a "real" backend — auth, relational integrity, validation — can you build with zero frontend at all? | JWT + bcrypt auth, Prisma 7 relational schema with composite unique constraints, Zod-validated REST API, deployed on Render |
 
-<table>
-<tr>
-<td width="50%" valign="top">
+---
 
-### 🤖 Vortex — Multi-Agent AI Platform
-Multi-agent system orchestrated with LangChain and LangGraph, backed by a Qdrant vector store and deployed on AWS.
+## Projects
 
-`LangChain` `LangGraph` `AWS` `React` `Qdrant`
+### ⚡ Vortex — Multi-Agent AI Platform
+*[GitHub](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai)*
 
-</td>
-<td width="50%" valign="top">
+**The problem:** Most "AI chat apps" point every request at one generic model and hope the prompt is good enough. That works until someone asks for a PDF, then a slide deck, then wants to chat about an uploaded image — one model can't specialize in all of it without either bloating its prompt or degrading everywhere.
 
-### 🔗 Cyvion — Real-Time Chat
-Real-time chat application on the MERN stack with Socket.io for live bidirectional messaging.
+**What I built:** A production-shaped multi-agent platform with an LLM-powered router sitting in front of 8 specialist agents — chat, search, coding, PDF generation, PDF/RAG Q&A, PPT generation, image generation, and image analysis. Built on LangGraph's `StateGraph`, every request flows through explicit nodes (`router → credit → <agent> → end`) instead of if/else spaghetti. The router reads the prompt *and* any attached file, then returns a primary agent + fallback as structured JSON.
 
-`MongoDB` `Express` `React` `Node.js` `Socket.io`
+**The key decision:** File type decides the domain (PDF-family vs. image-family), but the user's wording decides intent — read vs. generate. An empty prompt with a file attached always defaults to the safer "read/analyze" agent instead of guessing at generation. Credits are deducted *before* the agent runs, so a failed generation never silently wastes a user's balance twice.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Infra:** Node.js microservices (gateway, auth, chat, billing, agent) · MongoDB · Redis-backed sliding-window rate limits · Qdrant for RAG retrieval · Razorpay billing with real plan tiers · React 19 + Redux Toolkit frontend with a dedicated Artifact Panel for generated files/images/code
 
-### 🌍 AI Travel Planner
-AI-powered trip planning assistant built on the Gemini API.
+`Node.js` `LangGraph` `React` `MongoDB` `Redis` `Qdrant` `Razorpay` `Docker`
 
-`Gemini API` `Node.js` `React` `MongoDB`
+[→ View Repository](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai)
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🎬 Movie Watchlist API — Pure Backend
-RESTful API for tracking and managing a personal movie watchlist, with schema validation and testing.
+### 💬 Cyvion — Real-Time Messaging Platform
+*[GitHub](https://github.com/Anmol1578/Cyvion-Chat) · [Live Demo ↗](https://cyvion-chat.onrender.com)*
 
-`Node.js` `Express` `MongoDB` `Zod` `JWT`
+**The problem:** A chat app isn't just message send/receive — it's presence, delivery state, and social signals happening constantly and simultaneously. Most tutorials skip straight to "messages appear," ignoring the read receipts, typing indicators, and online status that actually make a chat app feel real-time.
 
-</td>
-</tr>
-</table>
+**What I built:** A full-stack messaging platform where Socket.IO drives bidirectional communication for messages, typing indicators, read receipts, and live presence dots — all layered on top of Clerk-based auth with webhook-synced user data. The whole thing ships as an SPA+API monolith: Express serves both the REST API and the built React frontend from one server.
 
-<br/>
+**The key decision:** Auth state lives in a Zustand store that stays synced with Clerk's session lifecycle rather than duplicating session logic — one source of truth instead of two systems drifting apart.
 
-## 🛠️ Tech Stack
+**Infra:** Multi-stage Dockerfile (frontend build → backend build → lean runtime) with a non-root container user · Clerk webhook signature verification to prevent spoofing · scheduled cron cleanup jobs · CORS scoped to a known frontend origin
 
-<table>
-<tr><td valign="top" width="150"><b>Languages</b></td><td>
-<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-</td></tr>
-<tr><td valign="top"><b>Backend & Full-Stack</b></td><td>
-<img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white"/>
-</td></tr>
-<tr><td valign="top"><b>AI / LLM Engineering</b></td><td>
-<img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
-<img src="https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-</td></tr>
-<tr><td valign="top"><b>Databases & Caching</b></td><td>
-<img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-</td></tr>
-<tr><td valign="top"><b>Cloud & DevOps</b></td><td>
-<img src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-</td></tr>
-</table>
+`React` `Express` `Socket.IO` `MongoDB` `Clerk` `Zustand` `Docker`
 
-<br/>
+[→ View Repository](https://github.com/Anmol1578/Cyvion-Chat) · [→ Live Demo](https://cyvion-chat.onrender.com)
 
-## 📊 GitHub Activity
+---
 
-<div align="center">
+### ✈️ AI Travel Itinerary Planner
+*[GitHub](https://github.com/Anmol1578/Travel-AI-Itinerary) · [Live Demo ↗](https://travel-ai-itinerary-2.onrender.com)*
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Anmol1578&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anmol1578&layout=compact&theme=tokyonight&hide_border=true" />
+**The problem:** Planning a multi-day trip means juggling logistics, pacing, and "did I actually cover everything" — the kind of structured-but-tedious task LLMs are well-suited for, if you can get them to return something usable instead of a wall of prose.
 
-<img src="https://streak-stats.demolab.com/?user=Anmol1578&theme=tokyonight&hide_border=true" />
+**What I built:** A full-stack MERN app where trip details go to Google's Gemini API and come back as a structured, day-by-day itinerary — persisted per user in MongoDB, not just displayed and forgotten. JWT + bcrypt handle auth; a global Axios interceptor layer attaches tokens and routes requests to the right environment automatically, keeping that logic out of individual components.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anmol1578&theme=tokyo-night&hide_border=true" />
+**The key decision:** CORS is explicitly scoped to known frontend origins instead of left open — a small thing most side projects skip that matters the moment this touches production.
 
-</div>
+**Infra:** React 18 + Vite · Tailwind CSS v4 glassmorphic UI · SPA catch-all rewrite so client-side routes survive a refresh · environment-aware config for local vs. production
 
-<br/>
+`React` `Node.js` `Express` `MongoDB` `Gemini API` `JWT`
 
-## 🎯 Open To
+[→ View Repository](https://github.com/Anmol1578/Travel-AI-Itinerary) · [→ Live Demo](https://travel-ai-itinerary-2.onrender.com)
 
-| | |
-|---|---|
-| 🧩 | Software Engineer Intern / SDE-1 |
-| 🖥️ | Backend / Node.js Developer |
-| 🌐 | Full-Stack Developer |
-| 🧠 | AI / LLM Engineering Intern |
-| 🤝 | Open-Source Collaboration |
+---
 
-Most interested in teams working on **real production systems, backend architecture, and scalability.**
+### 📸 SnapText — Offline OCR for YouTube
+*[GitHub](https://github.com/Anmol1578/Snap-Text)*
 
-<br/>
+**The problem:** Code snippets, subtitles, and on-screen text in YouTube videos are all pixels, not text — you either pause and retype by hand or give up.
 
-<div align="center">
+**What I built:** A Manifest V3 Chrome extension that lets you draw a box over any region of a YouTube video and instantly copies the text inside it to your clipboard. OCR runs entirely in-browser via Tesseract.js inside a Web Worker — no server call, no data ever leaves the machine.
 
-*Let's build something that scales.*
+**The key decision:** Running OCR in an Offscreen Document rather than the content script itself, isolating it from YouTube's page CSP while still keeping the whole pipeline local. Frame preprocessing (upscaling, contrast stretching, dark-mode inversion) was tuned specifically for video frames, which behave very differently from scanned documents.
 
-</div>
+**Infra:** Minimal permission footprint (`offscreen` only) · bundled Tesseract.js core + language data, zero external calls at runtime
+
+`JavaScript` `Chrome Extension (MV3)` `Tesseract.js` `Web Workers`
+
+[→ View Repository](https://github.com/Anmol1578/Snap-Text)
+
+---
+
+### 🎬 Movie Watchlist API
+*[GitHub](https://github.com/Anmol1578/Movie-Watchlist-Api) · [Live API ↗](https://movie-watchlist-api-m5sx.onrender.com)*
+
+**The problem:** Most portfolio backend projects lean on a frontend to hide gaps in the API itself. I wanted a project where the backend had nowhere to hide — no UI, no client, just the API standing on its own.
+
+**What I built:** A backend-only REST API for movies and personal watchlists with real relational modeling: Users, Movies, and WatchlistItems connected through foreign keys and cascade deletes, with a composite unique constraint (`@@unique([userId, movieId])`) preventing duplicate watchlist entries at the database level rather than in application code.
+
+**The key decision:** Validation with Zod happens before any request reaches the database — `movieId` must be a UUID, `rating` must be 1–10, `status` must match an enum. Invalid data never gets a chance to touch Prisma.
+
+**Infra:** PostgreSQL + Prisma 7 with the `PrismaPg` driver adapter · JWT stored in an `httpOnly` cookie · bcrypt password hashing · deployed on Render with graceful shutdown handling
+
+`Node.js` `Express` `PostgreSQL` `Prisma` `Zod` `JWT`
+
+[→ View Repository](https://github.com/Anmol1578/Movie-Watchlist-Api) · [→ Live API](https://movie-watchlist-api-m5sx.onrender.com)
+
+---
+
+## Skills
+
+**Backend:** Node.js · Express · Python · Microservices Architecture · REST APIs
+**LLMs & Agents:** LangGraph · LangChain · Groq API · Google Gemini API · OpenRouter · Tavily
+**Databases:** MongoDB · Mongoose · PostgreSQL · Prisma · Redis (ioredis) · Qdrant (vector DB)
+**Auth & Security:** JWT · bcrypt · Firebase Admin · Clerk · Zod validation
+**Frontend:** React · Redux Toolkit · Zustand · React Router · Tailwind CSS · Vite
+**Real-Time & Extensions:** Socket.IO · Chrome Extension (Manifest V3) · Tesseract.js (OCR) · Web Workers
+**Infra & Deployment:** Docker · AWS S3 · Render · Razorpay (payments) · pdfkit/pptxgenjs (document generation)
+
+---
+
+## Achievements
+- 🥇 Finalist — DecodeX Hackathon 2024
+- 🥇 Finalist — OpenAI X NamasteDev Hackathon
+---
+
+## Connect
+
+<p align="center">
+  <a href="mailto:anmol1578y@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/anmol-yadav5">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white" />
+  </a>
+  <a href="https://x.com/Anmol1578">
+    <img src="https://img.shields.io/badge/Twitter(X)-000000?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Anmol1578&color=00ff41&style=flat-square&label=Profile+Views" alt="Profile Views">
+</p>
+
+<p align="center"><sub>⚡ Open to SDE 1 & Backend internships & full-time opportunities</sub></p>
+<p align="center"><sub><i>P.S. If you've read this far, either my SEO worked or you're genuinely curious. Either way — hi, let's talk.</i></sub></p>
