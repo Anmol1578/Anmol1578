@@ -122,13 +122,13 @@ location  : Earth, India
 
 ## Skills
 
-**Backend:** Node.js · Express · Python · Microservices Architecture · REST APIs
-**LLMs & Agents:** LangGraph · LangChain · Groq API · Google Gemini API · OpenRouter · Tavily
-**Databases:** MongoDB · Mongoose · PostgreSQL · Prisma · Redis (ioredis) · Qdrant (vector DB)
-**Auth & Security:** JWT · bcrypt · Firebase Admin · Clerk · Zod validation
-**Frontend:** React · Redux Toolkit · Zustand · React Router · Tailwind CSS · Vite
-**Real-Time & Extensions:** Socket.IO · Chrome Extension (Manifest V3) · Tesseract.js (OCR) · Web Workers
-**Infra & Deployment:** Docker · AWS S3 · Render · Razorpay (payments) · pdfkit/pptxgenjs (document generation)
+- **Backend:** Node.js · Express · Python · Microservices Architecture · REST APIs
+- **LLMs & Agents:** LangGraph · LangChain · Groq API · Google Gemini API · OpenRouter · Tavily
+- **Databases:** MongoDB · Mongoose · PostgreSQL · Prisma · Redis (ioredis) · Qdrant (vector DB)
+- **Auth & Security:** JWT · bcrypt · Firebase Admin · Clerk · Zod validation
+- **Frontend:** React · Redux Toolkit · Zustand · React Router · Tailwind CSS · Vite
+- **Real-Time & Extensions:** Socket.IO · Chrome Extension (Manifest V3) · Tesseract.js (OCR) · Web Workers
+- **Infra & Deployment:** Docker · AWS S3 · Render · Razorpay (payments) · pdfkit/pptxgenjs (document generation)
 
 ---
 
