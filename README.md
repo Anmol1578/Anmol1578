@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%" />
 </p>
 <h1 align="center">Anmol Yadav</h1>
-<p align="center"><b> Backend Engineer — RAG Systems & Agent Architecture</b></p>
+<p align="center"><b> Backend Engineer — RAG Systems & Agent Architecture </b></p>
 
 ---
 
@@ -109,12 +109,6 @@ Backend-only REST API with relational integrity and schema validation.
 | **Infrastructure** | Docker, AWS (S3), Render, Vercel, CLI design, sandboxed execution |
 | **Frontend** | React, Redux Toolkit, Zustand, Tailwind CSS, Vite |
 
----
-
-## Achievements
-- 🥇 Finalist — DecodeX Hackathon 2024
-- 🥇 Finalist — OpenAI X NamasteDev Hackathon
-  
 ---
 ## Connect
 
