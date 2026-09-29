@@ -2,22 +2,17 @@
   <img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%" />
 </p>
 <h1 align="center">Anmol Yadav</h1>
-<p align="center"><b>Backend Engineer · Multi-Agent Systems · Production NLP</b></p>
-<p align="center"><i>I build systems that know when they don't know enough, then loop until they do.</i></p>
+<p align="center"><b> Backend Engineer — RAG Systems & Agent Architecture</b></p>
 
 ---
 
-I build LLM systems that ship — multi-agent orchestration, efficient fine-tuning, and RAG pipelines designed around one question: how much complexity can you hide before the system stops being useful?*
+I build the backend systems behind LLM applications: REST APIs, RAG pipelines, vector search, and agent workflows, engineered for reliability, low latency, and clean service boundaries. My design question: how much complexity can the backend hide before the system stops being useful?
 
----
-Studying Final year, what doesn't fit in a lecture hall.
----
+## What I'm Working On
 
-```
-focus     : backend engineering · multi-agent systems · efficient LLMs · RAG pipelines 
-currently : open to SDE 1 & Backend internships & full-time opportunities
-location  : Earth, India
-```
+- **Building:** RAG pipelines, agentic workflows, background job systems, and cloud-integrated backend services
+- **Sharpening:** Data Structures & Algorithms, Low-Level Design, Advanced SQL, and backend system design
+- **Exploring next:** Multi-agent orchestration, retrieval evaluation, and distributed job queues at scale
 
 ---
 
@@ -35,128 +30,104 @@ location  : Earth, India
 
 ## Projects
 
-### ⚡ Vortex — Multi-Agent AI Platform
-*[GitHub](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai)*
+### Vortex — Multi-Agent AI Platform
+Multi-agent platform where a LangGraph router with a credit gate dispatches to 8 specialist agents: chat, search, coding, PDF, PDF-RAG, PPT, vision, and image analysis.
 
-**The problem:** Most "AI chat apps" point every request at one generic model and hope the prompt is good enough. That works until someone asks for a PDF, then a slide deck, then wants to chat about an uploaded image — one model can't specialize in all of it without either bloating its prompt or degrading everywhere.
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai)
+[![Live demo](https://img.shields.io/badge/Live_demo-3DD6C3?style=flat-square)](https://vortex-multi-agent-ai.vercel.app/)
 
-**What I built:** A production-shaped multi-agent platform with an LLM-powered router sitting in front of 8 specialist agents — chat, search, coding, PDF generation, PDF/RAG Q&A, PPT generation, image generation, and image analysis. Built on LangGraph's `StateGraph`, every request flows through explicit nodes (`router → credit → <agent> → end`) instead of if/else spaghetti. The router reads the prompt *and* any attached file, then returns a primary agent + fallback as structured JSON.
-
-**The key decision:** File type decides the domain (PDF-family vs. image-family), but the user's wording decides intent — read vs. generate. An empty prompt with a file attached always defaults to the safer "read/analyze" agent instead of guessing at generation. Credits are deducted *before* the agent runs, so a failed generation never silently wastes a user's balance twice.
-
-**Infra:** Node.js microservices (gateway, auth, chat, billing, agent) · MongoDB · Redis-backed sliding-window rate limits · Qdrant for RAG retrieval · Razorpay billing with real plan tiers · React 19 + Redux Toolkit frontend with a dedicated Artifact Panel for generated files/images/code
-
-`Node.js` `LangGraph` `React` `MongoDB` `Redis` `Qdrant` `Razorpay` `Docker`
-
-[→ View Repository](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai)
+![Node.js](https://img.shields.io/badge/Node.js-15304A?style=flat-square&logo=nodedotjs&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-15304A?style=flat-square&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-15304A?style=flat-square&logo=qdrant&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-15304A?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-15304A?style=flat-square&logo=mongodb&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-15304A?style=flat-square&logo=razorpay&logoColor=white)
 
 ---
 
-### 💬 Cyvion — Real-Time Messaging Platform
-*[GitHub](https://github.com/Anmol1578/Cyvion-Chat) · [Live Demo ↗](https://cyvion-chat.onrender.com)*
+### Cyvion — Real-Time Messaging Platform
+Real-time messaging with typing indicators, read receipts, and live presence, backed by webhook-synced authentication.
 
-**The problem:** A chat app isn't just message send/receive — it's presence, delivery state, and social signals happening constantly and simultaneously. Most tutorials skip straight to "messages appear," ignoring the read receipts, typing indicators, and online status that actually make a chat app feel real-time.
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Cyvion-Chat)
+[![Live demo](https://img.shields.io/badge/Live_demo-3DD6C3?style=flat-square)](https://cyvion-chat.onrender.com)
 
-**What I built:** A full-stack messaging platform where Socket.IO drives bidirectional communication for messages, typing indicators, read receipts, and live presence dots — all layered on top of Clerk-based auth with webhook-synced user data. The whole thing ships as an SPA+API monolith: Express serves both the REST API and the built React frontend from one server.
-
-**The key decision:** Auth state lives in a Zustand store that stays synced with Clerk's session lifecycle rather than duplicating session logic — one source of truth instead of two systems drifting apart.
-
-**Infra:** Multi-stage Dockerfile (frontend build → backend build → lean runtime) with a non-root container user · Clerk webhook signature verification to prevent spoofing · scheduled cron cleanup jobs · CORS scoped to a known frontend origin
-
-`React` `Express` `Socket.IO` `MongoDB` `Clerk` `Zustand` `Docker`
-
-[→ View Repository](https://github.com/Anmol1578/Cyvion-Chat) · [→ Live Demo](https://cyvion-chat.onrender.com)
+![React](https://img.shields.io/badge/React-15304A?style=flat-square&logo=react&logoColor=white)
+![Express](https://img.shields.io/badge/Express-15304A?style=flat-square&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-15304A?style=flat-square&logo=socketdotio&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-15304A?style=flat-square&logo=clerk&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-15304A?style=flat-square&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-15304A?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
-### ✈️ AI Travel Itinerary Planner
-*[GitHub](https://github.com/Anmol1578/Travel-AI-Itinerary) · [Live Demo ↗](https://travel-ai-itinerary-2.onrender.com)*
+### AI Travel Itinerary Planner
+Gemini-generated day-by-day itineraries, persisted per user.
 
-**The problem:** Planning a multi-day trip means juggling logistics, pacing, and "did I actually cover everything" — the kind of structured-but-tedious task LLMs are well-suited for, if you can get them to return something usable instead of a wall of prose.
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Travel-AI-Itinerary)
+[![Live demo](https://img.shields.io/badge/Live_demo-3DD6C3?style=flat-square)](https://travel-ai-itinerary-2.onrender.com)
 
-**What I built:** A full-stack MERN app where trip details go to Google's Gemini API and come back as a structured, day-by-day itinerary — persisted per user in MongoDB, not just displayed and forgotten. JWT + bcrypt handle auth; a global Axios interceptor layer attaches tokens and routes requests to the right environment automatically, keeping that logic out of individual components.
-
-**The key decision:** CORS is explicitly scoped to known frontend origins instead of left open — a small thing most side projects skip that matters the moment this touches production.
-
-**Infra:** React 18 + Vite · Tailwind CSS v4 glassmorphic UI · SPA catch-all rewrite so client-side routes survive a refresh · environment-aware config for local vs. production
-
-`React` `Node.js` `Express` `MongoDB` `Gemini API` `JWT`
-
-[→ View Repository](https://github.com/Anmol1578/Travel-AI-Itinerary) · [→ Live Demo](https://travel-ai-itinerary-2.onrender.com)
+![React](https://img.shields.io/badge/React-15304A?style=flat-square&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-15304A?style=flat-square&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-15304A?style=flat-square&logo=mongodb&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-15304A?style=flat-square&logo=googlegemini&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-15304A?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 ---
 
-### 📸 SnapText — Offline OCR for YouTube
-*[GitHub](https://github.com/Anmol1578/Snap-Text)*
+### SnapText — Offline OCR Chrome Extension
+Chrome extension that OCRs on-screen video text entirely client-side.
 
-**The problem:** Code snippets, subtitles, and on-screen text in YouTube videos are all pixels, not text — you either pause and retype by hand or give up.
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Snap-Text)
 
-**What I built:** A Manifest V3 Chrome extension that lets you draw a box over any region of a YouTube video and instantly copies the text inside it to your clipboard. OCR runs entirely in-browser via Tesseract.js inside a Web Worker — no server call, no data ever leaves the machine.
-
-**The key decision:** Running OCR in an Offscreen Document rather than the content script itself, isolating it from YouTube's page CSP while still keeping the whole pipeline local. Frame preprocessing (upscaling, contrast stretching, dark-mode inversion) was tuned specifically for video frames, which behave very differently from scanned documents.
-
-**Infra:** Minimal permission footprint (`offscreen` only) · bundled Tesseract.js core + language data, zero external calls at runtime
-
-`JavaScript` `Chrome Extension (MV3)` `Tesseract.js` `Web Workers`
-
-[→ View Repository](https://github.com/Anmol1578/Snap-Text)
+![Chrome Extension MV3](https://img.shields.io/badge/Chrome_Extension_MV3-15304A?style=flat-square&logo=googlechrome&logoColor=white)
+![Tesseract.js](https://img.shields.io/badge/Tesseract.js-15304A?style=flat-square)
+![Web Workers](https://img.shields.io/badge/Web_Workers-15304A?style=flat-square)
 
 ---
 
-### 🎬 Movie Watchlist API
-*[GitHub](https://github.com/Anmol1578/Movie-Watchlist-Api) · [Live API ↗](https://movie-watchlist-api-m5sx.onrender.com)*
+### Movie Watchlist API
+Backend-only REST API with relational integrity and schema validation.
 
-**The problem:** Most portfolio backend projects lean on a frontend to hide gaps in the API itself. I wanted a project where the backend had nowhere to hide — no UI, no client, just the API standing on its own.
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Movie-Watchlist-Api)
+[![Live API](https://img.shields.io/badge/Live_API-3DD6C3?style=flat-square)](https://movie-watchlist-api-m5sx.onrender.com)
 
-**What I built:** A backend-only REST API for movies and personal watchlists with real relational modeling: Users, Movies, and WatchlistItems connected through foreign keys and cascade deletes, with a composite unique constraint (`@@unique([userId, movieId])`) preventing duplicate watchlist entries at the database level rather than in application code.
-
-**The key decision:** Validation with Zod happens before any request reaches the database — `movieId` must be a UUID, `rating` must be 1–10, `status` must match an enum. Invalid data never gets a chance to touch Prisma.
-
-**Infra:** PostgreSQL + Prisma 7 with the `PrismaPg` driver adapter · JWT stored in an `httpOnly` cookie · bcrypt password hashing · deployed on Render with graceful shutdown handling
-
-`Node.js` `Express` `PostgreSQL` `Prisma` `Zod` `JWT`
-
-[→ View Repository](https://github.com/Anmol1578/Movie-Watchlist-Api) · [→ Live API](https://movie-watchlist-api-m5sx.onrender.com)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15304A?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-15304A?style=flat-square&logo=prisma&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-15304A?style=flat-square&logo=zod&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-15304A?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Render](https://img.shields.io/badge/Render-15304A?style=flat-square&logo=render&logoColor=white)
 
 ---
 
-## Skills
+## Tech Stack
 
-- **Backend:** Node.js · Express · Python · Microservices Architecture · REST APIs
-- **LLMs & Agents:** LangGraph · LangChain · Groq API · Google Gemini API · OpenRouter · Tavily
-- **Databases:** MongoDB · Mongoose · PostgreSQL · Prisma · Redis (ioredis) · Qdrant (vector DB)
-- **Auth & Security:** JWT · bcrypt · Firebase Admin · Clerk · Zod validation
-- **Frontend:** React · Redux Toolkit · Zustand · React Router · Tailwind CSS · Vite
-- **Real-Time & Extensions:** Socket.IO · Chrome Extension (Manifest V3) · Tesseract.js (OCR) · Web Workers
-- **Infra & Deployment:** Docker · AWS S3 · Render · Razorpay (payments) · pdfkit/pptxgenjs (document generation)
+| Domain | Technologies & Capabilities |
+|---|---|
+| **Backend** | Node.js, Bun, Express, Python, REST APIs, microservices, authentication (JWT, bcrypt, Clerk, Firebase Admin), rate limiting, background jobs, Socket.IO |
+| **AI / GenAI** | LangGraph, LangChain, RAG pipelines, vector search, AI agents, tool orchestration, prompt engineering, structured outputs (Zod), Gemini API, Groq, OpenRouter, Tavily |
+| **Databases** | PostgreSQL, pgvector, Qdrant, MongoDB, Prisma, Redis |
+| **Infrastructure** | Docker, AWS (S3), Render, Vercel, CLI design, sandboxed execution |
+| **Frontend** | React, Redux Toolkit, Zustand, Tailwind CSS, Vite |
 
 ---
 
 ## Achievements
 - 🥇 Finalist — DecodeX Hackathon 2024
 - 🥇 Finalist — OpenAI X NamasteDev Hackathon
+  
 ---
-
 ## Connect
 
 <p align="center">
-  <a href="mailto:anmol1578y@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/anmol-yadav5">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white" />
-  </a>
-  <a href="https://x.com/Anmol1578">
-    <img src="https://img.shields.io/badge/Twitter(X)-000000?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
+  <a href="mailto:anmol1578y@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/anmol-yadav5"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/Anmol1578"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
 </p>
+
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anmol1578&color=00ff41&style=flat-square&label=Profile+Views" alt="Profile Views">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Anmol1578&label=Profile+views&color=3DD6C3&labelColor=15304A&style=flat-square" />
 </p>
 
-<p align="center"><sub>⚡ Open to SDE 1 & Backend internships & full-time opportunities</sub></p>
+<p align="center"><sub>Open to SDE-1 and Backend Developer roles, internships and full-time.</sub></p>
 <p align="center"><sub><i>P.S. If you've read this far, either my SEO worked or you're genuinely curious. Either way — hi, let's talk.</i></sub></p>
