@@ -21,6 +21,7 @@ I build the backend systems behind LLM applications: REST APIs, RAG pipelines, v
 | Project | The Question I Was Answering | Result |
 |---|---|---|
 | [Vortex-Multi-Agent-Ai](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai) | Can one router hide 8 specialist agents behind a single prompt box, without the routing logic leaking into the UI? | LangGraph `StateGraph` router + credit gate dispatching to 8 agents (chat, search, coding, PDF, PDF-RAG, PPT, vision, image analysis); Node microservices (gateway, auth, chat, billing, agent), Qdrant RAG, Redis rate-limiting, Razorpay billing |
+| [Elite-Mind](https://github.com/Anmol1578/Elite-Mind) | Can ChatGPT, Claude, and Gemini share one searchable memory without any conversation leaving the browser? | Local-first Manifest V3 Chrome extension: IndexedDB storage, 512-dim feature-hashing semantic search (no embedding APIs), context handoff briefs for switching between AI platforms, side panel workspace with folders, notes, and command palette; zero network calls |
 | [Cyvion-Chat](https://github.com/Anmol1578/Cyvion-Chat) | How much real-time infrastructure can you bolt onto a chat app before the socket layer *is* the product? | Socket.IO real-time messaging, Clerk auth with webhook-synced user data, read receipts / typing / online presence, Dockerized SPA+API monolith with cron jobs |
 | [Travel-AI-Itinerary](https://github.com/Anmol1578/Travel-AI-Itinerary) | Can one LLM call replace a day of manual trip planning and still come back structured, not just a wall of text? | Full-stack MERN app, JWT + bcrypt auth, Gemini-generated day-by-day itineraries persisted per user, Axios-interceptor-driven env routing |
 | [Snap-Text](https://github.com/Anmol1578/Snap-Text) | Can you snip and OCR text off a locked-down video player without a server ever seeing a frame? | Manifest V3 Chrome extension, Tesseract.js OCR running in an offscreen Web Worker, zero network calls — full pipeline runs client-side |
@@ -42,6 +43,18 @@ Multi-agent platform where a LangGraph router with a credit gate dispatches to 8
 ![Redis](https://img.shields.io/badge/Redis-15304A?style=flat-square&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-15304A?style=flat-square&logo=mongodb&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-15304A?style=flat-square&logo=razorpay&logoColor=white)
+
+---
+
+### EliteMind — Local-First AI Conversation Manager
+Chrome extension that saves, organizes, and searches conversations across ChatGPT, Claude, and Gemini, with local semantic search and context handoff between platforms.
+
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Elite-Mind)
+
+![Chrome Extension MV3](https://img.shields.io/badge/Chrome_Extension_MV3-15304A?style=flat-square&logo=googlechrome&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-15304A?style=flat-square&logo=javascript&logoColor=white)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-15304A?style=flat-square)
+![Vector Search](https://img.shields.io/badge/Vector_Search-15304A?style=flat-square)
 
 ---
 
