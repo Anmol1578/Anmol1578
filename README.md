@@ -2,34 +2,36 @@
   <img src="https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png" width="100%" />
 </p>
 <h1 align="center">Anmol Yadav</h1>
-<p align="center"><b> Backend Engineer — RAG Systems & Agent Architecture </b></p>
+<p align="center"><b> Backend Engineer x App Developer</b></p>
 
 ---
 
-I build the backend systems behind LLM applications: REST APIs, RAG pipelines, vector search, and agent workflows, engineered for reliability, low latency, and clean service boundaries. My design question: how much complexity can the backend hide before the system stops being useful?
+I build the backend systems behind LLM applications: REST APIs, RAG pipelines, vector search, and agent workflows, engineered for reliability, low latency, and clean service boundaries. 
 
 ## What I'm Working On
 
 - **Building:** RAG pipelines, agentic workflows, background job systems, and cloud-integrated backend services
 - **Sharpening:** Data Structures & Algorithms, Low-Level Design, Advanced SQL, and backend system design
-- **Exploring next:** Multi-agent orchestration, retrieval evaluation, and distributed job queues at scale
-
----
-
-### What I Actually Build
-
-| Project | The Question I Was Answering | Result |
-|---|---|---|
-| [Vortex-Multi-Agent-Ai](https://github.com/Anmol1578/Vortex-Multi-Agent-Ai) | Can one router hide 8 specialist agents behind a single prompt box, without the routing logic leaking into the UI? | LangGraph `StateGraph` router + credit gate dispatching to 8 agents (chat, search, coding, PDF, PDF-RAG, PPT, vision, image analysis); Node microservices (gateway, auth, chat, billing, agent), Qdrant RAG, Redis rate-limiting, Razorpay billing |
-| [Elite-Mind](https://github.com/Anmol1578/Elite-Mind) | Can ChatGPT, Claude, and Gemini share one searchable memory without any conversation leaving the browser? | Local-first Manifest V3 Chrome extension: IndexedDB storage, 512-dim feature-hashing semantic search (no embedding APIs), context handoff briefs for switching between AI platforms, side panel workspace with folders, notes, and command palette; zero network calls |
-| [Cyvion-Chat](https://github.com/Anmol1578/Cyvion-Chat) | How much real-time infrastructure can you bolt onto a chat app before the socket layer *is* the product? | Socket.IO real-time messaging, Clerk auth with webhook-synced user data, read receipts / typing / online presence, Dockerized SPA+API monolith with cron jobs |
-| [Travel-AI-Itinerary](https://github.com/Anmol1578/Travel-AI-Itinerary) | Can one LLM call replace a day of manual trip planning and still come back structured, not just a wall of text? | Full-stack MERN app, JWT + bcrypt auth, Gemini-generated day-by-day itineraries persisted per user, Axios-interceptor-driven env routing |
-| [Snap-Text](https://github.com/Anmol1578/Snap-Text) | Can you snip and OCR text off a locked-down video player without a server ever seeing a frame? | Manifest V3 Chrome extension, Tesseract.js OCR running in an offscreen Web Worker, zero network calls — full pipeline runs client-side |
-| [Movie-Watchlist-Api](https://github.com/Anmol1578/Movie-Watchlist-Api) | How much of a "real" backend — auth, relational integrity, validation — can you build with zero frontend at all? | JWT + bcrypt auth, Prisma 7 relational schema with composite unique constraints, Zod-validated REST API, deployed on Render |
+- **Exploring next:** Diving Into App development, Multi-agent orchestration, retrieval evaluation, and distributed job queues at scale 
 
 ---
 
 ## Projects
+
+### Roamify — AI Stay Discovery App
+Mobile app with natural-language stay search and citation-backed policy Q&A, where AI parses intent into strict filters and house-rule answers come directly from verified Sanity content.
+
+[![Repository](https://img.shields.io/badge/Repository-15304A?style=flat-square&logo=github&logoColor=white)](https://github.com/Anmol1578/Roamify)
+
+![React Native](https://img.shields.io/badge/React_Native-15304A?style=flat-square&logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-15304A?style=flat-square&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-15304A?style=flat-square&logo=typescript&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-15304A?style=flat-square&logo=sanity&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-15304A?style=flat-square&logo=clerk&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-15304A?style=flat-square&logo=googlegemini&logoColor=white)
+
+---
+
 
 ### Vortex — Multi-Agent AI Platform
 Multi-agent platform where a LangGraph router with a credit gate dispatches to 8 specialist agents: chat, search, coding, PDF, PDF-RAG, PPT, vision, and image analysis.
@@ -117,10 +119,11 @@ Backend-only REST API with relational integrity and schema validation.
 | Domain | Technologies & Capabilities |
 |---|---|
 | **Backend** | Node.js, Bun, Express, Python, REST APIs, microservices, authentication (JWT, bcrypt, Clerk, Firebase Admin), rate limiting, background jobs, Socket.IO |
-| **AI / GenAI** | LangGraph, LangChain, RAG pipelines, vector search, AI agents, tool orchestration, prompt engineering, structured outputs (Zod), Gemini API, Groq, OpenRouter, Tavily |
+| **AI / GenAI** | LangGraph, LangChain, RAG pipelines, vector search, AI agents, tool orchestration, prompt engineering, structured outputs (Zod), Vercel AI SDK, Gemini API, Groq, OpenRouter, Tavily |
 | **Databases** | PostgreSQL, pgvector, Qdrant, MongoDB, Prisma, Redis |
 | **Infrastructure** | Docker, AWS (S3), Render, Vercel, CLI design, sandboxed execution |
-| **Frontend** | React, Redux Toolkit, Zustand, Tailwind CSS, Vite |
+| **Frontend** | React, React Native, Expo, TypeScript, Redux Toolkit, Zustand, Tailwind CSS, NativeWind, Vite |
+| **CMS** | Sanity (Content Lake, GROQ, Knowledge Base) |
 
 ---
 ## Connect
