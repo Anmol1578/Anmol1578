@@ -28,7 +28,7 @@ Mobile app with natural-language stay search and citation-backed policy Q&A, whe
 ![TypeScript](https://img.shields.io/badge/TypeScript-15304A?style=flat-square&logo=typescript&logoColor=white)
 ![Sanity](https://img.shields.io/badge/Sanity-15304A?style=flat-square&logo=sanity&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-15304A?style=flat-square&logo=clerk&logoColor=white)
-![Gemini API](https://img.shields.io/badge/Gemini_API-15304A?style=flat-square&logo=googlegemini&logoColor=white)
+![Grok API](https://img.shields.io/badge/Grok_API-000000?style=flat-square&logo=x&logoColor=white)
 
 ---
 
